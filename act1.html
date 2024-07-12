@@ -1,0 +1,147 @@
+<html><head><base href="https://hackthedevils.github.io/blog/act1">
+<title>Activité Pratique - Lesson 1: Introduction à la Cybersécurité - Hack The Devils</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    body {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #020202;
+        color: #00ffcc;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        padding: 1.5rem;
+        text-align: center;
+        background: #111;
+        border-bottom: 3px solid #00ffcc;
+        position: relative;
+        z-index: 1000;
+    }
+    header h1 {
+        font-size: 3rem;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #0d0d0d;
+        padding: 1rem 0;
+        border-bottom: 3px solid #00ffcc;
+    }
+    nav a {
+        color: #00ffcc;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+    }
+    nav a:hover {
+        color: #020202;
+        background: #00ffcc;
+        border-color: #00ffcc;
+    }
+    nav a.active {
+        border-color: #00ffcc;
+        background: rgba(0, 255, 204, 0.2);
+    }
+    main {
+        padding: 3rem 2rem;
+        text-align: left;
+    }
+    .activity-section {
+        background: rgba(0, 255, 204, 0.05);
+        border-radius: 8px;
+        border: 1px solid #00ffcc;
+        margin: 1.5rem auto;
+        padding: 2rem;
+        width: 90%;
+        max-width: 720px;
+        box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+        transition: all 0.4s ease;
+    }
+    .activity-section:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(0, 255, 204, 0.8);
+    }
+    .activity-section h2 {
+        color: #00ffa3;
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .activity-section p {
+        color: #11ffdb;
+        font-size: 1.1rem;
+    }
+    .activity-section form {
+        margin-top: 1rem;
+    }
+    .activity-section label {
+        display: block;
+        margin: 0.5rem 0;
+        color: #00ffcc;
+    }
+    .activity-section input[type="text"], 
+    .activity-section textarea {
+        width: 100%;
+        padding: 0.5rem;
+        background: #0d0d0d;
+        border: 1px solid #00ffcc;
+        color: #00ffff;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+    .activity-section input[type="submit"] {
+        background: #00ffcc;
+        border: none;
+        color: #020202;
+        padding: 0.7rem 1.5rem;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+    .activity-section input[type="submit"]:hover {
+        background: #00ff99;
+    }
+    footer {
+        padding: 1rem 0;
+        background-color: #111;
+        text-align: center;
+        border-top: 3px solid #00ffcc;
+    }
+    footer p {
+        margin: 0;
+        color: #11ffec;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Activité Pratique - Lesson 1: Introduction à la Cybersécurité</h1>
+    <p>Testez vos connaissances acquises dans cette leçon avec l'activité suivante.</p>
+</header>
+<nav>
+    <a href="https://hackthedevils.github.io/blog/index" class="active">Cours</a>
+    <a href="https://hackthedevils.github.io/blog/defis">Défis</a>
+    <a href="https://hackthedevils.github.io/blog/forum">Forum</a>
+    <a href="https://hackthedevils.github.io/blog/ressources">Ressources</a>
+    <a href="https://hackthedevils.github.io/blog/contact">Contact</a>
+</nav>
+<main>
+    <section class="activity-section">
+        <h2>Questions d'Évaluation</h2>
+        <p>Répondez aux questions suivantes pour tester vos connaissances sur les concepts abordés dans cette leçon :</p>
+        <form method="GET" action="https://hackthedevils.github.io/blog/resultact1">
+            <label for="question1">1. Quels sont les principaux types de menaces en cybersécurité ?</label>
+            <textarea id="question1" name="question1" rows="4"></textarea>
+            
+            <label for="question2">2. What are the typical measures taken to ensure cybersecurity?</label>
+            <textarea id="question2" name="question2" rows="4"></textarea>
+            
+            <input type="submit" value="Soumettre les Réponses">
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 Hack The Devils. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
